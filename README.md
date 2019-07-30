@@ -3,10 +3,11 @@ Automatize the entire process from management network creation in OpenStack till
 
 ## Requirements
 
-* Mandatory Python library requirements:
-	* python-openstack
-        * python-neutronclient
-        * osmclient
+Python library requirements:
+
+- python-openstack
+- python-neutronclient
+- osmclient
 
 Install dependencies and mandatory Python libraries:
 ```
@@ -15,7 +16,6 @@ pip install python-openstack
 pip install python-neutronclient
 pip install python-magic
 pip install git+https://osm.etsi.org/gerrit/osm/osmclient
-
 ```
 
 ## Usage Instructions
@@ -45,6 +45,5 @@ Options:
   --os_project_domain_id TEXT  OpenStack project domain id
   --os_user_domain_id TEXT     OpenStack user domain id
   --help                       Show this message and exit.
-
 ```
 
