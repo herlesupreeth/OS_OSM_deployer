@@ -11,9 +11,8 @@ Python library requirements:
 
 Install dependencies and mandatory Python libraries:
 ```
-apt install python-pip libcurl4-gnutls-dev libgnutls-dev
-pip install python-openstack
-pip install python-neutronclient
+apt-get install python-pip libcurl4-gnutls-dev libgnutls-dev
+apt-get install python-openstackclient
 pip install python-magic
 pip install git+https://osm.etsi.org/gerrit/osm/osmclient
 ```
